@@ -120,9 +120,23 @@ h3 {
 }
 
 /* QUOTE SECTION */
+
+h4 {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0 auto;
+}
 .quote {
     background-color: #E5E7EB;
-    padding: 40px 300px;
+    padding: 120px 340px;
 }
 
 /* CALL TO ACTION SECTION */
