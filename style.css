@@ -13,21 +13,24 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding:  0px 100px;
+    padding:  0px 200px;
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #3882f6 ;
     border: none;
     color: white;
-    padding: 5px 22px;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* HEADER SECTION */
 
 .header {
     justify-content: space-between;
+    align-items: flex-end;
     padding-top: 15px;
     padding-bottom: 100px;
 }
@@ -40,12 +43,14 @@ button {
 ul {
     list-style: none;
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     gap: 25px;
+
 }
 
 /* INTRO SECTION */
@@ -54,6 +59,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: -10px;
 }
 
 h2 {
@@ -71,16 +77,14 @@ h3 {
 .intro img
  {
     display: block;
-    background-color: aqua;
-    width: 300px;
 }
 
 .intro-text {
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .intro {
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 
 
