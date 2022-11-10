@@ -134,6 +134,7 @@ h5 {
     text-align: right;
     margin: 0 auto;
 }
+
 .quote {
     background-color: #E5E7EB;
     padding: 120px 340px;
@@ -142,20 +143,44 @@ h5 {
 /* CALL TO ACTION SECTION */
 
 .call {
-    padding: 40px 300px;
+    padding: 90px 210px;
 }
 
 .blue-box {
     background-color: #3882f6;
+    color: white;
     border-radius: 8px;
-    padding: 20px 100px;
+    padding: 40px 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-box button {    
+    border:2px solid white;
+}
+
+.blue-box p {
+    font-size: 16px;
+    color: #b0c4ec;
+    margin: 0 auto;
+}
+
+h6 {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
 }
 
 
+
 /* FOOTER */
+
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
